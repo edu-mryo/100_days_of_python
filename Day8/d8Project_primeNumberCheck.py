@@ -13,9 +13,9 @@ def prime_checker(number):
         print("It's not a prime number")
     elif number >1:
         for i in range(2,number):
-            if number%2==0:
+            if (number%i)==0:
                 flag = True
-            break
+                break
     if flag:
         print("It's not a prime number")
     else:
